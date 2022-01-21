@@ -1,0 +1,10 @@
+{
+    "WIFI_COMMAND": "SET_CONFIG",
+    "connect_timeout": 20,
+    "dhcp_enable": 1,
+    "gateway": "192.168.1.1",
+    "wifi_password": "Bico0388",
+    "wifi_ssid": "Bico2.4",
+    "ip": "192.168.1.169",
+    "subnet": "255.255.255.0"
+}

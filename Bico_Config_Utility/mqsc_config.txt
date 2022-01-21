@@ -1,0 +1,105 @@
+{
+  "broker_ip_address": "broker.mqttdashboard.com",
+  "broker_port": 1883,
+  "MQSC_COMMAND": "SET_BROKER"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "protocol_name": "MQTT",
+  "protocol_level": 4,
+  "clean_session": 1,
+  "will_flag": 0,
+  "will_QoS": 0,
+  "will_retain": 0,
+  "password": 0,
+  "user_name": 0,
+  "keep_alive": 60,
+  "client_identifier": "MQSC_1016983",
+  "will_topic": "",
+
+  "will_message": "",
+  "User_name": "",
+  "Password": "",
+  "MQSC_COMMAND": "SET_CONNECT"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "subscribe_packet_list": [
+    {
+      "topic_filter": "",
+      "max_QoS": 0
+    },
+    {
+      "topic_filter": "testxxx",
+      "max_QoS": 0
+    },
+    {
+      "topic_filter": "",
+      "max_QoS": 0
+    },
+    {
+      "topic_filter": "",
+      "max_QoS": 0
+    },
+    {
+      "topic_filter": "",
+      "max_QoS": 0
+    }
+  ],
+  "MQSC_COMMAND": "SET_SUBSCRIBE"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "retain": 0,
+  "QoS": 0,
+  "dup": 0,
+  "topic_name": "channel_state",
+  "application_message": "{\"16\":<cmd>DIGITAL_READ</cmd><pin>16</pin>,\n\"5\":<cmd>DIGITAL_READ</cmd><pin>5</pin>,\n\"4\":<cmd>DIGITAL_READ</cmd><pin>4</pin>,\n\"0\":<cmd>DIGITAL_READ</cmd><pin>0</pin>,\n\"2\":<cmd>DIGITAL_READ</cmd><pin>2</pin>,\n\"14\":<cmd>DIGITAL_READ</cmd><pin>14</pin>,\n\"12\":<cmd>DIGITAL_READ</cmd><pin>12</pin>,\n\"13\":<cmd>DIGITAL_READ</cmd><pin>13</pin>\n}",
+  "MQSC_COMMAND": "SET_PUBLISH"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "publish_running_mode": "Continous",
+  "publish_continuous_interval": 500,
+  "publish_trigger_type": "null",
+  "publish_trigger_pin": 13,
+  "publish_trigger_sign": "T",
+  "id_filter": false,
+  "response_enable": false,
+  "print_mqtt_event": true,
+  "print_mqtt_message": "JSON",
+  "publish_serial_data": "NONE",
+  "MQSC_COMMAND": "SET_ACTIVITY"
+}
+
+-----COMMAND_SEPERATOR-----
+{
+  "pin_16_mode": "OUTPUT_MODE",
+  "pin_5_mode": "OUTPUT_MODE",
+  "pin_4_mode": "OUTPUT_MODE",
+  "pin_0_mode": "OUTPUT_MODE",
+  "pin_2_mode": "OUTPUT_MODE",
+  "pin_14_mode": "OUTPUT_MODE",
+  "pin_12_mode": "OUTPUT_MODE",
+  "pin_13_mode": "OUTPUT_MODE",
+  "pin_15_mode": "OUTPUT_MODE",
+  "MQSC_COMMAND": "SET_PINMODE"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "pin_16_init_state": "HIGH",
+  "pin_5_init_state": "HIGH",
+  "pin_4_init_state": "HIGH",
+  "pin_0_init_state": "HIGH",
+  "pin_2_init_state": "HIGH",
+  "pin_14_init_state": "HIGH",
+  "pin_12_init_state": "HIGH",
+  "pin_13_init_state": "HIGH",
+  "pin_15_init_state": "HIGH",
+  "MQSC_COMMAND": "SET_PIN_INIT_STATE"
+}
+-----COMMAND_SEPERATOR-----
+{
+  "baudrate": 115200,
+  "MQSC_COMMAND": "SET_BAUDRATE"
+}

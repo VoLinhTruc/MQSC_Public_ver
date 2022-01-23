@@ -26,11 +26,11 @@
 {
   "subscribe_packet_list": [
     {
-      "topic_filter": "",
+      "topic_filter": "testxxx",
       "max_QoS": 0
     },
     {
-      "topic_filter": "testxxx",
+      "topic_filter": "",
       "max_QoS": 0
     },
     {

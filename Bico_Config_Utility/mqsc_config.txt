@@ -50,12 +50,12 @@
 }
 -----COMMAND_SEPERATOR-----
 {
-  "retain": 0,
-  "QoS": 0,
-  "dup": 0,
-  "topic_name": "channel_state",
-  "application_message": "{\"16\":<cmd>DIGITAL_READ</cmd><pin>16</pin>,\n\"5\":<cmd>DIGITAL_READ</cmd><pin>5</pin>,\n\"4\":<cmd>DIGITAL_READ</cmd><pin>4</pin>,\n\"0\":<cmd>DIGITAL_READ</cmd><pin>0</pin>,\n\"2\":<cmd>DIGITAL_READ</cmd><pin>2</pin>,\n\"14\":<cmd>DIGITAL_READ</cmd><pin>14</pin>,\n\"12\":<cmd>DIGITAL_READ</cmd><pin>12</pin>,\n\"13\":<cmd>DIGITAL_READ</cmd><pin>13</pin>\n}",
-  "MQSC_COMMAND": "SET_PUBLISH"
+    "MQSC_COMMAND": "SET_PUBLISH",
+    "QoS": 0,
+    "application_message": "{\"16\":<cmd>DIGITAL_READ</cmd><pin>16</pin>,\n\"5\":<cmd>DIGITAL_READ</cmd><pin>5</pin>,\n\"4\":<cmd>DIGITAL_READ</cmd><pin>4</pin>,\n\"0\":<cmd>DIGITAL_READ</cmd><pin>0</pin>,\n\"2\":<cmd>DIGITAL_READ</cmd><pin>2</pin>,\n\"14\":<cmd>DIGITAL_READ</cmd><pin>14</pin>,\n\"12\":<cmd>DIGITAL_READ</cmd><pin>12</pin>,\n\"13\":<cmd>DIGITAL_READ</cmd><pin>13</pin>\n\"15\":<cmd>DIGITAL_READ</cmd><pin>15</pin>\n}",
+    "dup": 0,
+    "retain": 0,
+    "topic_name": "channel_state"
 }
 -----COMMAND_SEPERATOR-----
 {
